@@ -144,24 +144,13 @@ function HomePage() {
             <li class="header__sm-menu-link">
                 <Link to="#contact">Contact</Link>
             </li>
-            <li class="header__link-wrapper">
-            <a
+            <li class="header__sm-menu-link">
+              <a
                 href="/Aditya Resume For web development.pdf"
                 download
-                style={{
-                  display: "inline-block",
-                  backgroundColor: "#007bff",
-                  color: "#fff",
-                  padding: "15px 18px",
-                  download : "resume.pdf",
-                  textDecoration: "none",
-                  fontSize: "14px",
-                  borderRadius: "5px",
-                  transition: "background-color 0.3s ease",
-                }}
-          >
+              >
                 Download Resume
-          </a>
+              </a>
             </li>
 
 
