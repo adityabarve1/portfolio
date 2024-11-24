@@ -7,7 +7,7 @@ const ContactMessages = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  const BASE_URL = "http://localhost:8000/api"; // Update this to your backend URL
+  const BASE_URL = "https://portfolio-backend-95wi.onrender.com/api"; // Update this to your backend URL
 
   useEffect(() => {
     const fetchMessages = async () => {

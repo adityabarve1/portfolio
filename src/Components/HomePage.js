@@ -26,7 +26,7 @@ function HomePage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:8000/api/contact', formData);
+      await axios.post('https://portfolio-backend-95wi.onrender.com/api/contact', formData);
       setFormStatus('success');
       setFormData({
         name: '',
