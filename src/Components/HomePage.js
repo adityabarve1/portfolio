@@ -152,10 +152,10 @@ function HomePage() {
                   display: "inline-block",
                   backgroundColor: "#007bff",
                   color: "#fff",
-                  padding: "19px 20px",
+                  padding: "15px 18px",
                   download : "resume.pdf",
                   textDecoration: "none",
-                  fontSize: "16px",
+                  fontSize: "14px",
                   borderRadius: "5px",
                   transition: "background-color 0.3s ease",
                 }}
