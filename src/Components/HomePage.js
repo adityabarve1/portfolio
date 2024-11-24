@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './HomePage.css';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
+import { useEffect } from 'react';
 
 
   
@@ -37,6 +38,27 @@ function HomePage() {
       setFormStatus('error');
     }
   };
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Toggle menu function
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (isMenuOpen) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isMenuOpen]);
 
   return (
     <div>
@@ -88,21 +110,23 @@ function HomePage() {
           </a>
             </li>
           </ul>
-          <div class="header__main-ham-menu-cont">
+          <div class="header__main-ham-menu-cont" onClick={toggleMenu}>
             <img
               src="https://i.ibb.co/MkdBtff/ham-menu.png"
               alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
+              class={`header__main-ham-menu ${isMenuOpen ? "d-none" : ""}`}
+            /> 
             <img
               src="https://i.ibb.co/DpBwC3j/ham-menu-close.png"
               alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
+              
+              class={`header__main-ham-menu-close ${!isMenuOpen ? "d-none" : ""}`}
             />
+            
           </div>
         </div>
       </div>
-      <div class="header__sm-menu">
+      <div class={`header__sm-menu ${isMenuOpen ? "header__sm-menu--active" : ""}`}>
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
@@ -120,6 +144,27 @@ function HomePage() {
             <li class="header__sm-menu-link">
                 <Link to="#contact">Contact</Link>
             </li>
+            <li class="header__link-wrapper">
+            <a
+                href="/Aditya Resume For web development.pdf"
+                download
+                style={{
+                  display: "inline-block",
+                  backgroundColor: "#007bff",
+                  color: "#fff",
+                  padding: "19px 20px",
+                  download : "resume.pdf",
+                  textDecoration: "none",
+                  fontSize: "16px",
+                  borderRadius: "5px",
+                  transition: "background-color 0.3s ease",
+                }}
+          >
+                Download Resume
+          </a>
+            </li>
+
+
           </ul>
         </div>
       </div>
