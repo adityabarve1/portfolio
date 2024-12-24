@@ -67,7 +67,7 @@ function HomePage() {
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="https://i.ibb.co/3F5yTzQ/Whats-App-Image-2024-08-12-at-15-36-48.jpg" 
+              src="https://i.ibb.co/QNtDxrq/Whats-App-Image-2024-08-12-at-15-36-48.jpg" 
               alt="Aditya Barve Logo Image"
               class="header__logo-img"
             />
@@ -112,12 +112,12 @@ function HomePage() {
           </ul>
           <div class="header__main-ham-menu-cont" onClick={toggleMenu}>
             <img
-              src="https://i.ibb.co/MkdBtff/ham-menu.png"
+              src="https://i.ibb.co/n1ZGKTP/ham-menu.png"
               alt="hamburger menu"
               class={`header__main-ham-menu ${isMenuOpen ? "d-none" : ""}`}
             /> 
             <img
-              src="https://i.ibb.co/DpBwC3j/ham-menu-close.png"
+              src="https://i.ibb.co/drhgS1c/ham-menu-close.png"
               alt="hamburger menu close"
               
               class={`header__main-ham-menu-close ${!isMenuOpen ? "d-none" : ""}`}
@@ -174,7 +174,7 @@ function HomePage() {
         <div class="home-hero__social">
           <Link to="https://www.linkedin.com/in/aditya-barve-6b52541a9/" class="home-hero__social-icon-link">
             <img
-              src="https://i.ibb.co/NxZYjbh/linkedin-ico.png"
+              src="https://i.ibb.co/q7SHNTp/linkedin-ico.png"
               alt="icon"
               class="home-hero__social-icon"
             />
@@ -183,7 +183,7 @@ function HomePage() {
         <div class="home-hero__social">
           <a href="https://github.com/adityabarve1" class="home-hero__social-icon-link">
             <img
-              src="https://i.ibb.co/7GH7Nf0/github-ico.png"
+              src="https://i.ibb.co/zZHC5Jt/github-ico.png"
               alt="icon"
               class="home-hero__social-icon"
             />
@@ -192,7 +192,7 @@ function HomePage() {
         <div class="home-hero__social">
           <a href="https://x.com/barve_aditya11" class="home-hero__social-icon-link">
             <img
-              src="https://i.ibb.co/pw2CVr4/twitter-ico.png"
+              src="https://i.ibb.co/DwV2pC4/twitter-ico.png"
               alt="icon"
               class="home-hero__social-icon"
             />
@@ -276,7 +276,7 @@ function HomePage() {
             <div class="projects__row-img-cont">
 
               <img
-                src="https://i.ibb.co/HY0TDtG/Untitled-design.png"
+                src="https://i.ibb.co/cX1kf7F/Untitled-design.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
@@ -299,7 +299,7 @@ function HomePage() {
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="https://i.ibb.co/0ZtMTmk/Untitled-design-2.png"
+                src="https://i.ibb.co/VNbRx0t/Untitled-design-2.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
@@ -322,7 +322,7 @@ function HomePage() {
           <div class="projects__row">
             <div class="projects__row-img-cont">
               <img
-                src="https://i.ibb.co/3mc3crr/Untitled-design-3.png"
+                src="https://i.ibb.co/Jq5BvHd/Untitled-design-3.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
@@ -414,7 +414,7 @@ function HomePage() {
             <div class="home-hero__social">
               <Link to="https://www.linkedin.com/in/aditya-barve-6b52541a9/" class="home-hero__social-icon-link">
                 <img
-                  src="https://i.ibb.co/NxZYjbh/linkedin-ico.png"
+                  src="https://i.ibb.co/q7SHNTp/linkedin-ico.png"
                   alt="icon"
                   class="home-hero__social-icon"
                 />
@@ -424,7 +424,7 @@ function HomePage() {
             <div class="home-hero__social">
           <a href="https://github.com/adityabarve1" class="home-hero__social-icon-link">
             <img
-              src="https://i.ibb.co/7GH7Nf0/github-ico.png"
+              src="https://i.ibb.co/zZHC5Jt/github-ico.png"
               alt="icon"
               class="home-hero__social-icon"
             />
@@ -433,7 +433,7 @@ function HomePage() {
         <div class="home-hero__social">
           <a href="https://x.com/barve_aditya11" class="home-hero__social-icon-link">
             <img
-              src="https://i.ibb.co/pw2CVr4/twitter-ico.png"
+              src="https://i.ibb.co/DwV2pC4/twitter-ico.png"
               alt="icon"
               class="home-hero__social-icon"
             />
