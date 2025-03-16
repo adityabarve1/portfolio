@@ -92,7 +92,7 @@ function HomePage() {
             </li>
             <li class="header__link-wrapper">
             <a
-                href="/Aditya Resume For web development.pdf"
+                href="/Aditya_Barve.pdf"
                 download
                 style={{
                   display: "inline-block",
